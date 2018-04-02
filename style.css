@@ -1,0 +1,29 @@
+section{
+	margin-top: 10px;	
+}
+
+#section-features .row{
+	margin-top: 30px;	
+}
+
+.jumbotron {
+	margin-top: -20px;
+}
+
+
+
+.equal, .equal > div[class*='col-'] {
+    display: flex;
+		justify-content: space-around;	
+}
+
+ol.carousel-indicators,
+.carousel-caption {
+     display: none;
+}
+
+.item img:hover {	
+	cursor: pointer;
+	transform: scale(1.3);	
+	transition: all 0.5s ease;
+}
