@@ -10,16 +10,14 @@ section{
 	margin-top: -20px;
 }
 
-
-
 .equal, .equal > div[class*='col-'] {
-    display: flex;
-		justify-content: space-around;	
+    	display: flex;
+	justify-content: space-around;	
 }
 
 ol.carousel-indicators,
 .carousel-caption {
-     display: none;
+     	display: none;
 }
 
 .item img:hover {	
